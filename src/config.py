@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 
 # Bot Configuration
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7606109523:AAF_b16juzJh0jGCCt7fQ7zwy7DFn6ekpxQ")  # Token provided by user
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")  # Replace with actual token in production
 
 # Database Configuration
 DB_PATH = Path(__file__).parent.parent / "data" / "matchmaking.db"
